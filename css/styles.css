@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0 0 0 0;
+
+}
+
+html {
+    color: #ccc;
+}
+
+
+body {
+
+    color: #177c46;
+    background-color: pink;
+    font-family: fantasy;
+    font-size: "15";
+
+
+
+
+}
+
+.gray {
+    color: gray;
+}
+
+.red-span {
+    color: red;
+
+}
+
+.centered {
+
+    /*
+    margin-left: 50px;
+    margin-right: 50px;
+*/
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   */
+
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+    margin: 100px auto 10px auto;
+    width: 80%;
+
+
+
+    /*
+    margin-left: 20px;
+    margin-right: 20px;
+*/
+
+    font-family: cursive
+}
+
+
+
+li {
+    color: blueviolet;
+}
+
+/*
+h2 {
+    color: chartreuse; 
+}
+
+    </style > </head > <body >
