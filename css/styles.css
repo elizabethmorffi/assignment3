@@ -1,3 +1,24 @@
+body {
+
+    color: #177c46;
+    background-color: pink;
+    font-family: fantasy;
+    font-size: 15px
+}
+
+li {
+    color: saddlebrown;
+}
+
+.flexboxmasterswitch {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
 * {
     box-sizing: border-box;
     margin: 0 0 0 0;
@@ -8,79 +29,68 @@ html {
     color: #ccc;
 }
 
+h2 {
+    color: antiquewhite;
+}
 
-body {
+.tesla-red {
 
-    color: #177c46;
-    background-color: pink;
-    font-family: fantasy;
-    font-size: 15px
+    color: rgb(211, 54, 48);
 
 }
-    /*
-        li {
-            color: saddlebrown;
-        }
-*/
 
-    h2 {
-        color: antiquewhite;
-    }
+.tshirts-font-big {
+    font-size: 30px;
+}
 
-    .tesla-red {
+.tshirts-font-heavy {
+    font-weight: 900;
+    color: aqua;
+}
 
-        color: rgb(211, 54, 48);
-
-    }
-
-    .tesla-font-big {
-        font-size: 30px;
-    }
-
-    #tesla-font-heavy {
-        font-weight: 900;
-        color: aqua;
-    }
-    body ul, body ol
-{
+body ul,
+body ol {
     background-color: lavender
 }
 
-    #content p a {
-        color: #00ff00;
-    }
+#content p a {
+    color: #00ff00;
+}
 
-    .centered {
+.centered {
 
-        /*
+
     margin-left: 50px;
     margin-right: 50px;
-*/
-        /*
+
+
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-   */
-
-        padding: 10px 10px 10px 10px;
-        border: 5px solid;
-        margin: 100px auto 10px auto;
-        width: 80%;
 
 
-        /*
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+    margin: 100px auto 10px auto;
+    width: 80%;
+
+
     margin-left: 20px;
     margin-right: 20px;
-*/
 
-        font-family: cursive
-    }
+    font-family: cursive
+}
 
 
-body ol, body ul  
-
-    {
+body ol,
+body ul {
     background-color: lavender;
-        color: blueviolet;
-    }
+    color: blueviolet;
+}
 
+@media screen and (max-width: 30rem) {
+    h1 {
+        color: deeppink
+    }
+}
+}
