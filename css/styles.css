@@ -1,5 +1,6 @@
 body {
-
+    box-sizing: border-box;
+    margin: 0 0 0 0;
     color: #177c46;
     background-color: pink;
     font-family: fantasy;
@@ -24,8 +25,7 @@ h1 {
     justify-content: space-around;
 }
 
-box-sizing: border-box;
-margin: 0 0 0 0;
+
 
 html {
     color: #ccc;
@@ -52,7 +52,7 @@ h2 {
 
 body ul,
 body ol {
-    background-color: lavender
+    background-color: lavender;
 }
 
 #content p a {
@@ -80,7 +80,7 @@ body ol {
     margin-left: 20px;
     margin-right: 20px;
 
-    font-family: cursive
+    font-family: cursive;
 }
 
 
@@ -92,5 +92,6 @@ body ul {
 
 @media screen and (max-width: 30rem) {
     h1 {
-        color: deeppink
+        color: deeppink;
     }
+}
