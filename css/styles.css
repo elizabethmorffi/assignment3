@@ -15,15 +15,17 @@ li {
     flex-direction: column;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0 0 0 0;
-
+.multi-colum-container {
+    display: flex;
+    justify-content: space-around;
 }
+
+box-sizing: border-box;
+margin: 0 0 0 0;
 
 html {
     color: #ccc;
@@ -33,9 +35,9 @@ h2 {
     color: antiquewhite;
 }
 
-.tesla-red {
+.tshirts {
 
-    color: rgb(211, 54, 48);
+    color: rebeccapurple;
 
 }
 
@@ -92,5 +94,3 @@ body ul {
     h1 {
         color: deeppink
     }
-}
-}
